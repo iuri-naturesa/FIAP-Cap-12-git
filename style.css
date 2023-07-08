@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.img-fundo {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.nav-nav-fiap {
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+.nav-nav-outro {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-left: 20px;
+
+  color: #fff;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  font-size: 12vw;
+
+  font-weight: bold;
+}
+.hero-section h2 {
+  font-size: 3vw;
+}
+@media (max-width: 700px) {
+  .hero-section h1 {
+    font-size: 15vw;
+  }
+}
+
+.info-fiap {
+  margin-top: 10vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.info-fiap h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 30px 30px 0 30px;
+  color: #1b1b1b;
+}
+.info-fiap p {
+  font-size: 2rem;
+  color: #1b1b1b;
+  padding: 30px 30px 0 30px;
+}
+
+.btn-fiap {
+  width: 30vw;
+  background-color: #ffffff;
+  color: black;
+}
+
+.cadastro-fiap {
+  margin-top: 10vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.cadastro-fiap h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 30px 30px 0 30px;
+  color: #ffffff;
+}
+.cadastro-fiap p {
+  font-size: 2rem;
+  padding: 30px 30px 60px 30px;
+  color: #ffffff;
+}
+
+.img-fiap {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.7);
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  z-index: -1;
+}
+.img-fiap-2 {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  filter: brightness(0.7);
+  position: absolute;
+  top: 200vh;
+  left: 0;
+  z-index: -1;
+}
+@media (max-width: 550px) {
+  .info-fiap {
+    margin-top: 30vh;
+    height: 80vh;
+  }
+  .info-fiap h2 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .info-fiap p {
+    font-size: 1.2rem;
+  }
+  .btn-fiap {
+    width: 50vw;
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
+@media (max-width: 400px) {
+  .cadastro-fiap h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 30px 30px 0 30px;
+    color: #ffffff;
+  }
+  .cadastro-fiap p {
+    font-size: 1.4rem;
+    padding: 30px 30px 60px 30px;
+    color: #ffffff;
+  }
+}
